@@ -9,6 +9,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.github.tca85.loginapp.LoginActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/github_logo" />
+
     <TextView
         style="@style/txtDefault"
         android:layout_width="wrap_content"
