@@ -10,35 +10,35 @@
     tools:context="com.github.tca85.loginapp.LoginActivity">
 
     <TextView
-        android:text="@string/lblLogin"
         style="@style/txtDefault"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    
-    <EditText
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@string/lblLogin" />
+
+    <EditText
         android:id="@+id/edtLogin"
         style="@style/edtDefault"
-        android:inputType="text"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
 
     <TextView
-        android:text="@string/lblPassword"
         style="@style/txtDefault"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="@string/lblPassword" />
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/edtPassword"
         style="@style/edtDefault"
-        android:inputType="textPassword"/>
-
-    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/lblLogin"
-        android:id="@+id/btnLogin"/>
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblLogin" />
 
 </LinearLayout>

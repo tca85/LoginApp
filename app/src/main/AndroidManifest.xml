@@ -23,8 +23,7 @@
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation|screenLayout"
-            android:label="MainActivity">
-        </activity>
+            android:label="MainActivity"></activity>
 
         <activity
             android:name=".LoginActivity"
